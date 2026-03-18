@@ -24,10 +24,7 @@ namespace NCSafari
 
             Tiger pumpkin = new Tiger((float)100.4); //Casting the number into a float as Animal Weight is a float
             CultureInfo culture = new CultureInfo("es-ES");
-
-            pumpkinWeightFormatter = new WeightFormatter(pumpkin, culture);
-
-
+            WeightFormatter pumpkinWeightFormatter = new WeightFormatter(pumpkin, culture);
         }
     }
 }

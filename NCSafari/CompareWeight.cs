@@ -10,10 +10,10 @@ namespace NCSafari
 {
     public class CompareWeight : IComparer<Animal>
     {
-        public bool Descending = false; //no get or set as this is being used only internally 
+        public bool Descending = false;
         public CompareWeight(bool descending) { Descending = descending; } //constructor
 
-        public int Compare(Animal firstAnimal, Animal secondAnimal) //
+        public int Compare(Animal firstAnimal, Animal secondAnimal) //implementing the Compare method (from the IComparer built-in interface)
         {
             int result = firstAnimal.Weight.CompareTo(secondAnimal.Weight);
 
