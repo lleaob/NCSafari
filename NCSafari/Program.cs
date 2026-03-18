@@ -14,6 +14,14 @@
             sky.AddAnimalInEnvironment(jeff);
 
             sky.CheckAnimalsInEnvironment();
+
+            Water water = new Water();
+            water.AddAnimalInEnvironment(penny);
+            water.AddAnimalInEnvironment(jeff);
+            water.AddAnimalInEnvironment(fluffy);
+
+            water.CheckAnimalsInEnvironment();
+
         }
     }
 }
