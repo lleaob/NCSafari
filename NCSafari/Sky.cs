@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
-    public class Sky: SafariEnvironemnt
+    public class Sky: SafariEnvironment<IFly>
     {
     }
 }

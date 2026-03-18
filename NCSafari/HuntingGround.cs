@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
-    public class HuntingGround: SafariEnvironemnt
+    public class HuntingGround: SafariEnvironment<IHunt>
     {
     }
 }

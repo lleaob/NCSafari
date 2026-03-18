@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
-    public class Water: SafariEnvironemnt
+    public class Water: SafariEnvironment<ISwim>
     {
     }
 }
