@@ -8,5 +8,9 @@ namespace NCSafari
 {
     public class HuntingGround: SafariEnvironment<IHunt>
     {
+        public override void CheckAnimalsInEnvironment()
+        {
+
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace NCSafari
 {
     public class Sky: SafariEnvironment<IFly>
     {
+        public override void CheckAnimalsInEnvironment()
+        {
+            
+        }
     }
 }

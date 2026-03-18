@@ -8,5 +8,9 @@ namespace NCSafari
 {
     public class Water: SafariEnvironment<ISwim>
     {
+        public override void CheckAnimalsInEnvironment()
+        {
+
+        }
     }
 }
