@@ -9,9 +9,9 @@ namespace NCSafari
     internal class Goose : Bird, IFly, ISwim
     {
         public Goose(float weight) : base(weight) { }
-        public void Hunt() //Implementing Interface method
+        public void Fly() //Implementing Interface method
         {
-            Console.WriteLine("Goose is hunting!");
+            Console.WriteLine("Goose is Flying!");
         }
         public void Swim() //Implementing Interface method
         {
